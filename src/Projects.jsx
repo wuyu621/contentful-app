@@ -23,7 +23,7 @@ const Projects = () => {
           return (
             <a key={id} href={url} className="project">
               <img src={img} alt={title} className="img" />
-              <h5>reviews</h5>
+              <h5>{title}</h5>
             </a>
           );
         })}
